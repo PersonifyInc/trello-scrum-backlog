@@ -33,7 +33,7 @@ Basic Analysis Flow
 
 I do this using IPython with the working directory set to the repository.
 
-	%run trello_get_cards
+	%run trello_get_cards TRELLO_API_KEY_HERE TRELLO_ACCESS_TOKEN_HERE
 
 	%run trello_categorize_cards
 	CategorizeCards(cards)
